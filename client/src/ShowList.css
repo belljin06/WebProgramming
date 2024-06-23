@@ -1,0 +1,8 @@
+.showList-ul {
+    list-style-type: none; /* Removes the default list item marker */
+  }
+
+  .sholist_img{
+    width: 200px;
+    height: 200px;
+  }

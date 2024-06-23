@@ -1,0 +1,48 @@
+.my-page {
+    padding: 20px;
+  }
+  
+  .reservation-item {
+    margin: 10px 0; /* 항목 사이에 간격 추가 */
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+  }
+  
+  .reservation-item h2 {
+    margin-top: 0;
+  }
+  
+  .reservation-item p {
+    margin: 5px 0;
+  }
+  
+  .info-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start; /* 세로 정렬을 위해 추가 */
+    margin-top: 15px;
+  }
+  
+  .info-section {
+    flex: 1;
+    margin-right: 20px;
+  }
+  
+  .info-section:last-child {
+    margin-right: 0; /* 마지막 섹션의 오른쪽 마진 제거 */
+  }
+  
+  .site-info img,
+  .camp-info img {
+    width: 100%;
+    max-width: 300px; /* 최대 너비를 300px로 설정하여 절반으로 줄임 */
+    height: auto;
+    border-radius: 5px;
+    margin-bottom: 15px;
+  }
+  
+  .info-section p {
+    margin: 5px 0;
+  }
+  
